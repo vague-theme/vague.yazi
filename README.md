@@ -6,7 +6,7 @@
 
 ## Usage
 
-Add the flavor.toml and tmtheme.xml files in ~/.config/yazi/flavors/vague.yazi/
+Save the [flavor.toml](flavor.toml) and [tmtheme.xml](tmtheme.xml) files in `~/.config/yazi/flavors/vague.yazi` directory.
 
 The directory structure should be this:
 
@@ -17,7 +17,7 @@ The directory structure should be this:
 └── theme.toml
 ```
 
-To set it as your dark flavor, change the content of your `theme.toml` to:
+To set it as your dark flavor, change the content of your `theme.toml` file to:
 
 ```toml
 [flavor]
@@ -27,7 +27,3 @@ dark = "vague"
 Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want to override certain styles of this flavor.
 
 See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overview) for more details.
-
-## Thanks to contributors
-
-- [pgdkl](https://github.com/pgdkl)
